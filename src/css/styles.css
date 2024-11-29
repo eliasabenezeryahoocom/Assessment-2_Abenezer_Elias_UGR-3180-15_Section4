@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header{
+    background-color: #333;
+    width:100%;
+
+}
+
+.header {
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: orange;
+}
+
+.header p {
+    font-size: 0.9em;
+    text-align: start;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: orange;
+}
+
+.main1 article,
+.main2 article {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.main1 article h2,
+.main2 article h2 {
+    color: #79a83e;
+    margin-top: 0;
+}
+
+.main1 article p,
+.main2 article p {
+    text-align: justify;
+}
+
+.main1 article a,
+.main2 article a {
+    color: #79a83e;
+}
+#readmore{
+    color:#FF0000;
+}
+
+.sidebar {
+    background-color: #fff;
+}
+.sidebar a{
+    text-decoration: none;
+    color:black;
+}
+.sidebar ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.sidebar ul li h4 {
+    font-weight: 100;
+    margin-top: 4px;
+    color: #666;
+}
+
+.sidebar h2 {
+    color: #79a83e;
+}
+.toComapanyName h3{
+    color:#79a83e
+}
+.toComapanyName p{
+    font-size: 15px;
+    color:gray
+}
+.ourMission h3{
+    color:#79a83e
+}
+.ourMission p{
+    font-size: 15px;
+    color:gray;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.inputSection h3{
+    color:#79a83e
+}
+.inputSection h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:#666;
+    font-weight: 500;
+}
+.inputSection input{
+    width: 100%;
+    border:1px solid gray;
+}
+.inputSection textarea{
+    width:100%;
+    height:100px;
+}
+.contact h3{
+    font-size: 25px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+}
+
+.footer h3 {
+    color: #79a83e;
+    margin-top: 0;
+}
+
+.footer img {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.footer p,
+.footer a {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.footer a {
+    color:#79a83e;
+}
+
+.footer a:hover {
+    color: #79a83e;
+}
+
+.footer .learn-more {
+    color: #79a83e;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer .learn-more:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+.footer-bottom a {
+    color: #79a83e;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#footernavbar a {
+    color: #79a83e;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#footernavbar a:hover {
+    text-decoration: underline;
+}
+.inputSection {
+    padding: 10px;
+    padding-left: 14%;
+    background-color: white;
+    outline-color: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.inputSection h3 {
+    color:#79a83e;
+}
+
+.inputSection h4 {
+    margin: 15px 0 5px;
+    color: #555;
+}
+
+.inputSection input, .inputSection textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.inputSection button {
+    background-color:#ccc;
+    color: black;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width:100px;
+    height: 30px;
+    border-radius: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.inputSection button:hover {
+    background-color:#79a83e;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
